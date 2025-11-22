@@ -54,9 +54,7 @@ public class AstraWriter extends JFrame {
         leftHeader.setLayout(new FlowLayout(FlowLayout.LEFT, 15, 0));
         
         // Lock icon
-        JLabel lockLabel = new JLabel("🔒");
-        lockLabel.setFont(new Font("Arial", Font.PLAIN, 32));
-        lockLabel.setForeground(GOLD);
+        JLabel lockLabel = new JLabel(Icons.createLockIcon(32));
         leftHeader.add(lockLabel);
         
         // Title
@@ -72,14 +70,10 @@ public class AstraWriter extends JFrame {
         rightHeader.setBackground(DARK_BG);
         rightHeader.setLayout(new FlowLayout(FlowLayout.RIGHT, 15, 0));
         
-        JLabel moonLabel = new JLabel("🌙");
-        moonLabel.setFont(new Font("Arial", Font.PLAIN, 28));
-        moonLabel.setForeground(GOLD);
+        JLabel moonLabel = new JLabel(Icons.createMoonIcon(28));
         rightHeader.add(moonLabel);
         
-        JLabel settingsLabel = new JLabel("⚙️");
-        settingsLabel.setFont(new Font("Arial", Font.PLAIN, 28));
-        settingsLabel.setForeground(GOLD);
+        JLabel settingsLabel = new JLabel(Icons.createSettingsIcon(28));
         rightHeader.add(settingsLabel);
         
         panel.add(rightHeader, BorderLayout.EAST);
@@ -156,9 +150,7 @@ public class AstraWriter extends JFrame {
         panel.setBorder(new EmptyBorder(15, 15, 15, 15));
         panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 60));
         
-        JLabel lockLabel = new JLabel("🔒");
-        lockLabel.setFont(new Font("Arial", Font.PLAIN, 24));
-        lockLabel.setForeground(GOLD);
+        JLabel lockLabel = new JLabel(Icons.createLockIcon(24));
         panel.add(lockLabel, BorderLayout.WEST);
         
         JComboBox<String> deviceCombo = new JComboBox<>();
@@ -261,9 +253,7 @@ public class AstraWriter extends JFrame {
         infoPanel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 400));
         
         // Ubuntu logo
-        JLabel logoLabel = new JLabel("🔵");
-        logoLabel.setFont(new Font("Arial", Font.PLAIN, 80));
-        logoLabel.setForeground(GOLD);
+        JLabel logoLabel = new JLabel(Icons.createUbuntuIcon(80));
         logoLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
         infoPanel.add(logoLabel);
         infoPanel.add(Box.createVerticalStrut(20));
@@ -315,9 +305,7 @@ public class AstraWriter extends JFrame {
         leftFooter.setBackground(DARK_BG);
         leftFooter.setLayout(new FlowLayout(FlowLayout.LEFT, 8, 0));
         
-        JLabel checkLabel = new JLabel("✓");
-        checkLabel.setFont(new Font("Arial", Font.BOLD, 24));
-        checkLabel.setForeground(GOLD);
+        JLabel checkLabel = new JLabel(Icons.createCheckIcon(24));
         leftFooter.add(checkLabel);
         
         JLabel readyLabel = new JLabel("Ready to Write");
