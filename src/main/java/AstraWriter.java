@@ -161,8 +161,7 @@ public class AstraWriter extends JFrame {
         lockLabel.setForeground(GOLD);
         panel.add(lockLabel, BorderLayout.WEST);
         
-        String[] devices = {"E: (32 GB)", "D: (16 GB)", "F: (64 GB)"};
-        JComboBox<String> deviceCombo = new JComboBox<>(devices);
+        JComboBox<String> deviceCombo = new JComboBox<>();
         deviceCombo.setFont(new Font("Arial", Font.PLAIN, 16));
         deviceCombo.setForeground(TEXT_PRIMARY);
         deviceCombo.setBackground(DARK_PANEL);
@@ -181,8 +180,7 @@ public class AstraWriter extends JFrame {
         panel.setBorder(new EmptyBorder(15, 15, 15, 15));
         panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 60));
         
-        String[] images = {"C:\\ubuntu-24.04-desktop-amd64.", "C:\\fedora-39-live-x86_64", "C:\\debian-12-live"};
-        JComboBox<String> imageCombo = new JComboBox<>(images);
+        JComboBox<String> imageCombo = new JComboBox<>();
         imageCombo.setFont(new Font("Arial", Font.PLAIN, 14));
         imageCombo.setForeground(TEXT_PRIMARY);
         imageCombo.setBackground(DARK_PANEL);
@@ -200,8 +198,7 @@ public class AstraWriter extends JFrame {
         panel.setBorder(new EmptyBorder(10, 15, 10, 15));
         panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 60));
         
-        String[] partitionTables = {"GPT", "MBR"};
-        JComboBox<String> partitionCombo = new JComboBox<>(partitionTables);
+        JComboBox<String> partitionCombo = new JComboBox<>();
         partitionCombo.setFont(new Font("Arial", Font.PLAIN, 16));
         partitionCombo.setForeground(TEXT_PRIMARY);
         partitionCombo.setBackground(DARK_PANEL);
@@ -210,8 +207,7 @@ public class AstraWriter extends JFrame {
         styleComboBox(partitionCombo);
         panel.add(partitionCombo);
         
-        String[] filesystems = {"FAT32", "NTFS", "exFAT"};
-        JComboBox<String> fsCombo = new JComboBox<>(filesystems);
+        JComboBox<String> fsCombo = new JComboBox<>();
         fsCombo.setFont(new Font("Arial", Font.PLAIN, 16));
         fsCombo.setForeground(TEXT_PRIMARY);
         fsCombo.setBackground(DARK_PANEL);
