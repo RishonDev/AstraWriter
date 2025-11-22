@@ -161,15 +161,15 @@ public class AstraWriter extends JFrame {
         lockLabel.setForeground(GOLD);
         panel.add(lockLabel, BorderLayout.WEST);
         
-        JLabel deviceLabel = new JLabel("E: (32 GB)");
-        deviceLabel.setFont(new Font("Arial", Font.PLAIN, 18));
-        deviceLabel.setForeground(TEXT_PRIMARY);
-        panel.add(deviceLabel, BorderLayout.CENTER);
-        
-        JLabel arrowLabel = new JLabel("›");
-        arrowLabel.setFont(new Font("Arial", Font.PLAIN, 28));
-        arrowLabel.setForeground(TEXT_PRIMARY);
-        panel.add(arrowLabel, BorderLayout.EAST);
+        String[] devices = {"E: (32 GB)", "D: (16 GB)", "F: (64 GB)"};
+        JComboBox<String> deviceCombo = new JComboBox<>(devices);
+        deviceCombo.setFont(new Font("Arial", Font.PLAIN, 16));
+        deviceCombo.setForeground(TEXT_PRIMARY);
+        deviceCombo.setBackground(DARK_PANEL);
+        deviceCombo.setEditable(false);
+        deviceCombo.setFocusable(true);
+        styleComboBox(deviceCombo);
+        panel.add(deviceCombo, BorderLayout.CENTER);
         
         return panel;
     }
@@ -181,10 +181,14 @@ public class AstraWriter extends JFrame {
         panel.setBorder(new EmptyBorder(15, 15, 15, 15));
         panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 60));
         
-        JLabel imageLabel = new JLabel("C:\\ubuntu-24.04-desktop-amd64.");
-        imageLabel.setFont(new Font("Arial", Font.PLAIN, 16));
-        imageLabel.setForeground(TEXT_PRIMARY);
-        panel.add(imageLabel, BorderLayout.CENTER);
+        String[] images = {"C:\\ubuntu-24.04-desktop-amd64.", "C:\\fedora-39-live-x86_64", "C:\\debian-12-live"};
+        JComboBox<String> imageCombo = new JComboBox<>(images);
+        imageCombo.setFont(new Font("Arial", Font.PLAIN, 14));
+        imageCombo.setForeground(TEXT_PRIMARY);
+        imageCombo.setBackground(DARK_PANEL);
+        imageCombo.setEditable(false);
+        styleComboBox(imageCombo);
+        panel.add(imageCombo, BorderLayout.CENTER);
         
         return panel;
     }
@@ -192,25 +196,46 @@ public class AstraWriter extends JFrame {
     private JPanel createFormatSchemePanel() {
         JPanel panel = new RoundedPanel(15);
         panel.setBackground(DARK_PANEL);
-        panel.setLayout(new BorderLayout(15, 0));
-        panel.setBorder(new EmptyBorder(15, 15, 15, 15));
+        panel.setLayout(new FlowLayout(FlowLayout.LEFT, 15, 10));
+        panel.setBorder(new EmptyBorder(10, 15, 10, 15));
         panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 60));
         
-        JLabel gptLabel = new JLabel("GPT");
-        gptLabel.setFont(new Font("Arial", Font.PLAIN, 18));
-        gptLabel.setForeground(TEXT_PRIMARY);
-        panel.add(gptLabel, BorderLayout.WEST);
+        String[] partitionTables = {"GPT", "MBR"};
+        JComboBox<String> partitionCombo = new JComboBox<>(partitionTables);
+        partitionCombo.setFont(new Font("Arial", Font.PLAIN, 16));
+        partitionCombo.setForeground(TEXT_PRIMARY);
+        partitionCombo.setBackground(DARK_PANEL);
+        partitionCombo.setEditable(false);
+        partitionCombo.setPreferredSize(new Dimension(100, 35));
+        styleComboBox(partitionCombo);
+        panel.add(partitionCombo);
         
-        JPanel centerPanel = new JPanel();
-        centerPanel.setBackground(DARK_PANEL);
-        centerPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
-        JLabel fat32Label = new JLabel("FAT32 ›");
-        fat32Label.setFont(new Font("Arial", Font.PLAIN, 18));
-        fat32Label.setForeground(TEXT_PRIMARY);
-        centerPanel.add(fat32Label);
-        panel.add(centerPanel, BorderLayout.CENTER);
+        String[] filesystems = {"FAT32", "NTFS", "exFAT"};
+        JComboBox<String> fsCombo = new JComboBox<>(filesystems);
+        fsCombo.setFont(new Font("Arial", Font.PLAIN, 16));
+        fsCombo.setForeground(TEXT_PRIMARY);
+        fsCombo.setBackground(DARK_PANEL);
+        fsCombo.setEditable(false);
+        fsCombo.setPreferredSize(new Dimension(100, 35));
+        styleComboBox(fsCombo);
+        panel.add(fsCombo);
         
         return panel;
+    }
+    
+    private void styleComboBox(JComboBox<?> combo) {
+        combo.setUI(new javax.swing.plaf.basic.BasicComboBoxUI() {
+            @Override
+            protected JButton createArrowButton() {
+                JButton button = new JButton("›");
+                button.setFont(new Font("Arial", Font.PLAIN, 18));
+                button.setForeground(TEXT_PRIMARY);
+                button.setBackground(DARK_PANEL);
+                button.setBorder(null);
+                button.setContentAreaFilled(false);
+                return button;
+            }
+        });
     }
 
     private JPanel createAdvancedSection() {
