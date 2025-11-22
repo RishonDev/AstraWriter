@@ -10,6 +10,8 @@ public class AstraWriter extends JFrame {
     private static final Color TEXT_PRIMARY = new Color(240, 240, 240);
     private static final Color TEXT_SECONDARY = new Color(180, 180, 180);
     private static final Color BORDER_COLOR = new Color(80, 80, 80);
+    
+    private ExpandablePanel advancedSection;
 
     public AstraWriter() {
         setTitle("AstraWriter");
@@ -130,7 +132,8 @@ public class AstraWriter extends JFrame {
         panel.add(Box.createVerticalStrut(20));
         
         // Advanced Section
-        panel.add(createAdvancedSection());
+        advancedSection = createAdvancedSection();
+        panel.add(advancedSection);
         panel.add(Box.createVerticalGlue());
         
         return panel;
@@ -226,17 +229,16 @@ public class AstraWriter extends JFrame {
         });
     }
 
-    private JPanel createAdvancedSection() {
-        JPanel panel = new JPanel();
-        panel.setBackground(DARK_BG);
-        panel.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 0));
+    private ExpandablePanel createAdvancedSection() {
+        ExpandablePanel expandablePanel = new ExpandablePanel(this);
+        expandablePanel.setCollapsedHeight(30);
+        expandablePanel.setExpandedHeight(200);
         
-        JLabel advancedLabel = new JLabel("⬆ Advanced");
-        advancedLabel.setFont(new Font("Arial", Font.PLAIN, 16));
-        advancedLabel.setForeground(GOLD);
-        panel.add(advancedLabel);
+        // Content area for advanced options (ready for backend)
+        JPanel contentPanel = expandablePanel.getContentPanel();
+        contentPanel.setBorder(new EmptyBorder(15, 0, 0, 0));
         
-        return panel;
+        return expandablePanel;
     }
 
     private JPanel createRightPanel() {
