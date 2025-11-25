@@ -1,6 +1,6 @@
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* Main"
-entrypoint = "src/main/java/Main.java"
+run = "java -classpath .:target/dependency/* com.astrawriter.Main"
+entrypoint = "src/main/java/com.astrawriter.Main.java"
 hidden = ["**/*.class"]
 modules = ["java"]
 
@@ -57,11 +57,11 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "Main"
+mainClass = "com.astrawriter.Main"
 
 [deployment]
 build = ["javac", "-classpath", ".:target/dependency/*", "-d", ".", "$(find . -type f -name '*.java')"]
-run = ["java", "-classpath", ".:target/dependency/*", "Main"]
+run = ["java", "-classpath", ".:target/dependency/*", "com.astrawriter.Main"]
 deploymentTarget = "cloudrun"
 
 [agent]
@@ -77,15 +77,15 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "workflow.run"
-args = "AstraWriter"
+args = "com.astrawriter.AstraWriter"
 
 [[workflows.workflow]]
-name = "AstraWriter"
+name = "com.astrawriter.AstraWriter"
 author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd /home/runner/workspace && java AstraWriter"
+args = "cd /home/runner/workspace && java com.astrawriter.AstraWriter"
 
 [workflows.workflow.metadata]
 outputType = "console"

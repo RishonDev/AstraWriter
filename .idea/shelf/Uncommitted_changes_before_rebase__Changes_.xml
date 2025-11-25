@@ -1,0 +1,632 @@
+<changelist name="Uncommitted_changes_before_rebase_[Changes]" date="1763834779250" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Changes]" />
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/manjaro/manjaro_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/manjaro_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/kubuntu-round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS1015/icon_512x512.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_512x512.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS11/icon_32x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_32x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win11/win11_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win11_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win7AndXP/win7_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win7_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/10.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/10.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS1015/icon_16x16.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_16x16.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/debian/debian_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/debian_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/pngegg-2.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/pngegg-2.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Ventura.icns" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura.icns" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_256x256x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura_256x256x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/fedora/fedora_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/fedora_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS1015/icon_128x128.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_128x128.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win7AndXP/winxp_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/winxp_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Mojave.icns" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Mojave.icns" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/solus/solus_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/solus_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/1.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/1.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/arch/blackarch/black_arch_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/black_arch_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS1015/icon_128x128@2x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_128x128@2x.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/iso.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/iso.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win7AndXP/win7_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win7_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/screenresources/FinishedScreen/checkmark.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/checkmark.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/BigSur_Icons/BigSur_256x256x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur_256x256x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Catalina.icns" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Catalina.icns" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/linux-mint/linux_mint_sqaure.icns" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/linux_mint_sqaure.icns" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_16x16x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey_16x16x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_32x32x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey_32x32x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/original/ubuntu_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/BigSur.icns" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur.icns" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS1015/icon_256x256.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_256x256.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/original/ubuntu_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win7AndXP/winxp_round2.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/winxp_round2.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/apple_icons/apple_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/apple_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/ubuntuMATE/ubuntu-mate-aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu-mate-aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/2.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/2.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/7.jpeg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/7.jpeg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/5_auto_x2_colored_auto_x2_colored.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/5_auto_x2_colored_auto_x2_colored.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/success.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/success.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/elementaryOS/elementaryOS_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/elementaryOS_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/solus/solus_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/solus_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win7AndXP/winxp_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/winxp_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/kubuntu-aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/shell/scripts/dependencies/7z_mac/7zz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/7zz" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/manjaro/manjaro_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/manjaro_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/manjaro/manjaro_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/manjaro_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/BigSur_Icons/BigSur_32x32x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur_32x32x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Monterey.icns" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey.icns" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win8And10/windows_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/windows_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS11/icon_16x16@2x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_16x16@2x.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/debian/debian_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/debian_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/solus/solus_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/solus_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/shell/scripts/dependencies/7z-win/7zr.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/7zr.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/3.jpeg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/3.jpeg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/Linux_Aquamorphic.icns" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Linux_Aquamorphic.icns" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS11/icon_16x16.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_16x161.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/5_auto_x2_colored.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/5_auto_x2_colored.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win7AndXP/Win7.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Win7.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS1015/icon_32x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_32x321.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/deepin/deepin_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/deepin_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/manjaro/manjaro_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/manjaro_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/screenresources/FinishedScreen/Checkmark.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Checkmark.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/solus/solus_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/solus_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win11/win11_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win11_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/kubuntu-square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/apple_icons/apple_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/apple_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS11/icon_256x256@2x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_256x256@2x.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/arch/blackarch/black_arch_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/black_arch_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_256x256x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey_256x256x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/9.jpeg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/9.jpeg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/deepin/deepin_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/deepin_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/fedora/fedora_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/fedora_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/shell/scripts/dependencies/7z-linux/7zzs" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/7zzs" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/apple_icons/apple_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/apple_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/screenresources/FinishedScreen/crossmark.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/crossmark.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS11/icon_128x128@2x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_128x128@2x1.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win8And10/windows_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/windows_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/shell/scripts/dependencies/7z-linux/7zz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/7zz1" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS1015/icon_16x16@2x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_16x16@2x1.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win8And10/windows_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/windows_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/ubuntu_unity/uu-square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/uu-square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS1015/icon_512x512@2x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_512x512@2x.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/win.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/warning.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/warning.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/1000_F_476887551_To06orGUP2FCthNrqHnfNsuNXkXNjfTT-transformed.jpeg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/1000_F_476887551_To06orGUP2FCthNrqHnfNsuNXkXNjfTT-transformed.jpeg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/ubuntu-studio/ubuntu-studio-aquamorphic.icns" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu-studio-aquamorphic.icns" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/ubuntu_unity/uu-vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/uu-vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_16x16x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura_16x16x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/arch/arch_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/arch_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/elementaryOS/elementaryOS_sqaure.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/elementaryOS_sqaure.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_512x512x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura_512x512x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/HighSierra.icns" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/HighSierra.icns" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/ubuntuMATE/ubuntu-mate-square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu-mate-square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/screenresources/FinishedScreen/crossmark_2000x2000.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/crossmark_2000x2000.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/arch/blackarch/black_arch_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/black_arch_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Thumbs.db" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Thumbs.db" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/original/ubuntu_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/windows-8-icon.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/windows-8-icon.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/audio/WarningSound.wav" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/WarningSound.wav" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/debian/debian_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/debian_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/audio/QuestionSound.wav" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/QuestionSound.wav" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/redhat/redhat.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/redhat.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/utilities/dd_win/dd.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/dd.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_32x32x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura_32x32x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/BigSur_Icons/BigSur_512x512x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur_512x512x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/arch/arch-aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/arch-aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/audio/InformationSound.wav" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/InformationSound.wav" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_1024x1024x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey_1024x1024x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS11/icon_512x512.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_512x5121.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/kubuntu-vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/deepin/deepin.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/deepin.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS11/icon_128x128.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_128x1281.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/arch/arch-vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/arch-vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/ubuntuMATE/ubuntu-mate-vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu-mate-vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/BigSur_Icons/BigSur_1024x1024x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur_1024x1024x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/redhat/redhat_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/redhat_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/original/ubuntu_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/ubuntu_unity/uu-round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/uu-round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win8And10/windows_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/windows_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/arch/arch_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/arch_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/apple_icons/apple_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/apple_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win7AndXP/win_xp_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win_xp_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/macOS.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/macOS.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/error.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/error.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/BigSur_Icons/BigSur_16x16x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur_16x16x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS11/icon_256x256.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_256x2561.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS11/icon_32x32@2x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_32x32@2x.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win7AndXP/winxp_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/winxp_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/fedora/fedora_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/fedora_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win7AndXP/Win7_Vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Win7_Vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/redhat/redhat_aquamorhpic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/redhat_aquamorhpic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win11/win11_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win11_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/deepin/deepin_square.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/deepin_square.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/ubuntuMATE/ubuntu-mate-round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu-mate-round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/6.jpeg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/6.jpeg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/ubuntu_unity/uu-aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/uu-aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/4.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/4.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/elementaryOS/elementaryOS_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/elementaryOS_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/elementaryOS/elementaryOS_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/elementaryOS_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/fedora/fedora_sqaure.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/fedora_sqaure.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/icon1.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon1.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/arch/blackarch/black_arch-aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/black_arch-aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/OS-Linux-icon.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/OS-Linux-icon.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS11/icon_512x512@2x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_512x512@2x1.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/linux-mint/linux-mint_round.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/linux-mint_round.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/About.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/About.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/debian/debian_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/debian_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/linux-mint/linux_mint_vibrant.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/linux_mint_vibrant.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_1024x1024x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura_1024x1024x32.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Windows_Icons/Win11/win11_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win11_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS1015/icon_256x256@2x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_256x256@2x1.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/audio/errorSound.wav" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/errorSound.wav" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/app_icons/ico_macOS1015/icon_32x32@2x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_32x32@2x1.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/5.jpeg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/5.jpeg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/linux-mint/linux_mint_aquamorphic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/linux_mint_aquamorphic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Linux_Icons/redhat/images.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/images.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_512x512x32.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey_512x512x32.png" />
+  </binary>
+</changelist>

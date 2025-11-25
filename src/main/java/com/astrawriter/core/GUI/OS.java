@@ -1,0 +1,44 @@
+package com.astrawriter.core.GUI;
+
+public final class OS {
+    public static final int macOS13 = 1;
+    public static final int macOS12 = 2;
+    public static final int macOS11 = 3;
+    public static final int macOS10_15 = 4;
+    public static final int macOS10_14 = 5;
+    public static final int macOS10_13 = 6;
+    public static final int windowsXP64 = 11;
+    public static final int ubuntu = 6;
+    public static int Windows11 = 7;
+    public static int Windows10 = 8;
+    public static int Windows8_1 = 9;
+    public static int Windows8_1_64 = 10;
+//    public static final int debian64 = "https://cdimage.debian.org/debian-cd/current/amd64/bt-dvd/debian-11.4.0-amd64-DVD-1.iso.torrent";
+//    public static final int debian = "https://cdimage.debian.org/debian-cd/current/i386/bt-dvd/debian-11.4.0-i386-DVD-1.iso.torrent";
+//    public static final int debianNet64 = "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.4.0-amd64-netinst.iso";
+//    public static final int debianNet = "https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-11.4.0-i386-netinst.iso";
+//    public static final int ubuntuServer = "https://releases.ubuntu.com/22.04/ubuntu-22.04.1-live-server-amd64.iso";
+//    public static final int arch = "http://mirrors.edge.kernel.org/archlinux/iso/2022.11.01/archlinux-2022.11.01-x86_64.iso";
+//    public static final int fedoraWorkspace64 = "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-36-1.5.iso";
+//    public static final int fedoraWorkspace = "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Workstation/aarch64/iso/Fedora-Workstation-Live-aarch64-36-1.5.iso";
+//    public static final int fedoraServer = "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Server/x86_64/iso/Fedora-Server-dvd-x86_64-36-1.5.iso";
+//    public static final int fedoraServer_ARM = "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Server/aarch64/iso/Fedora-Server-dvd-aarch64-36-1.5.iso";
+//    public static final int deepin = "https://cdimage.deepin.com/releases/20.6/deepin-desktop-community-20.6-amd64.iso";
+//    public static final int manjaroGnome = "https://download.manjaro.org/gnome/21.3.4/manjaro-gnome-21.3.4-220718-linux515.iso";
+//    public static final int manjaroXFCE = "https://download.manjaro.org/xfce/21.3.4/manjaro-xfce-21.3.4-220718-linux515.iso";
+//    public static final int manjaroKDE = "https://download.manjaro.org/kde/21.3.4/manjaro-kde-21.3.4-220718-linux515.iso";
+//    public static final int linuxMintXFCE = "https://mirrors.kernel.org/linuxmint/stable/21/linuxmint-21-xfce-64bit.iso";
+//    public static int linuxMintCinnamon = "https://mirrors.kernel.org/linuxmint/stable/21/linuxmint-21-cinnamon-64bit.iso";
+//    public static int linuxMintMate = "https://mirrors.kernel.org/linuxmint/stable/21/linuxmint-21-mate-64bit.iso";
+//    public static int elementaryOS = "https://sgp1.dl.elementary.io/download/MTY1ODIyMTYzMg==/elementaryos-6.1-stable.20211218-rc.iso";
+//    public static int solusGnome = "https://mirrors.rit.edu/solus/images/4.3/Solus-4.3-GNOME.iso";
+//    public static int solusBudgie = "https://mirrors.rit.edu/solus/images/4.3/Solus-4.3-Budgie.iso";
+//    public static int solusMATE = "https://mirrors.rit.edu/solus/images/4.3/Solus-4.3-MATE.iso";
+//    public static int solusKDE = "https://mirrors.rit.edu/solus/images/4.3/Solus-4.3-Plasma.iso";
+//    public static int blackArch = "https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-full-2021.09.01-x86_64.iso";
+//    public static int blackArchMinimum = "https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-slim-2021.09.01-x86_64.iso";
+//    public static int blackArchNet = "https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2021.09.01-x86_64.iso";
+//    public static int fedoraServerNet_ARM = "https://mirrors.tuna.tsinghua.edu.cn/fedora/releases/36/Server/aarch64/iso/Fedora-Server-netinst-aarch64-36-1.5.iso";
+//    public static int fedoraServerNet = "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Server/x86_64/iso/Fedora-Server-netinst-x86_64-36-1.5.iso";
+//    public static int WindowsXP = "https://github.com/JavaOpenSoft/WaveUSB/releases/download/WindowsXP/WindowsXP-32bit-Professional-ServicePack3.iso";
+}
