@@ -54,7 +54,6 @@ public class URLs {
     public static URL T2EndevourOS = getURL("https://github.com/t2linux/EndeavourOS-ISO-t2/releases/download/2022.12.24/endeavouros-t2-Cassini-T2-x86_64.iso");
     public static URL archlinux32 = getURL("https://mirror.bradiceanu.net/archlinux32/archisos/");
     public static URL archlinuxARM = getURL("http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz");
-
     //No Archives images are available for Windows 12 so commented out to avoid taking up unnecessary memory
     //String Windows12 = null;
     public static URL getURL(String url) {

@@ -19,10 +19,10 @@ public class Downloader {
     public static void downloadFileWithProgress(JLabel label, URL url, String DirectoryOutputFileName) throws MalformedURLException {
         try (InputStream in = url.openStream(); ReadableByteChannel rbc = Channels.newChannel(in); FileOutputStream fos = new FileOutputStream(DirectoryOutputFileName)) {
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            float size = FileOperations.convertToMegabytes(FileOperations.  getFileSize(url), "Bytes"), downloadedData = 0.0F;
+            float size = FileIO.convertToMegabytes(FileIO.  getFileSize(url), "Bytes"), downloadedData = 0.0F;
             while (downloadedData <= size) {
-                label.setText("Downloaded " + FileOperations.getFileSizeInMegabytes(DirectoryOutputFileName) + "MB out of " + size + "MB");
-                downloadedData = FileOperations.getFileSizeInMegabytes(Definitions.image.getAbsolutePath());
+                label.setText("Downloaded " + FileIO.getFileSizeInMegabytes(DirectoryOutputFileName) + "MB out of " + size + "MB");
+                downloadedData = FileIO.getFileSizeInMegabytes(Definitions.image.getAbsolutePath());
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

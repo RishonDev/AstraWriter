@@ -4,9 +4,7 @@ import com.astrawriter.core.SoftwareInfo;
 import net.samuelcampos.usbdrivedetector.USBDeviceDetectorManager;
 
 import javax.swing.*;
-import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
-import java.awt.event.KeyEvent;
 import java.io.File;
 import java.net.URL;
 import java.util.ArrayList;

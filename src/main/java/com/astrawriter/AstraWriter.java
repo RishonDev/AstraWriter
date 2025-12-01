@@ -1,370 +1,231 @@
 package com.astrawriter;
 
 import javax.swing.*;
-import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
-import static com.astrawriter.AstraUIKit.AstraColors.GOLD;
+/**
+ * AstraWriter.java
+ *
+ * Uses only AstraUIKit components.
+ * Null layout, medium layout 700x500 (collapsed), expandable to configurable size.
+ *
+ * Expand/Contract animation implemented via Timer interpolation.
+ */
+public class AstraWriter extends AstraUIKit.AstraWindow {
 
-public class AstraWriter extends JFrame {
-    private static final Color DARK_BG = new Color(20, 20, 20);
-    private static final Color DARK_PANEL = new Color(30, 30, 30);
-    private static final Color TEXT_PRIMARY = new Color(240, 240, 240);
-    private static final Color TEXT_SECONDARY = new Color(180, 180, 180);
-    private static final Color BORDER_COLOR = new Color(80, 80, 80);
+    // adjustable sizes — change later as needed
+    private Dimension collapsedSize = new Dimension(700, 500);
+    private Dimension expandedSize  = new Dimension(1000, 700);
 
-    private ExpandablePanel advancedSection;
+    // animation
+    private Timer resizeTimer;
+    private boolean expanded = false;
+    private int animDurationMs = 450; // total animation duration
+    private int animIntervalMs = 16;  // ~60fps
 
-    public AstraWriter() {
-        setTitle("AstraWriter");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(1000, 700);
+    public AstraWriter(){
+        super("AstraWriter");
+        setSize(collapsedSize);
         setLocationRelativeTo(null);
         setResizable(false);
-        setBackground(DARK_BG);
-
-        // Main panel
-        JPanel mainPanel = new JPanel();
-        mainPanel.setBackground(DARK_BG);
-        mainPanel.setLayout(null);
-        mainPanel.setBorder(new EmptyBorder(20, 20, 20, 20));
-        // Header panel
-        mainPanel.add(createHeaderPanel(), BorderLayout.NORTH);
-
-        // Content panel (left and right sections)
-        JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
-        splitPane.setDividerLocation(500);
-        splitPane.setEnabled(false);
-        splitPane.setOpaque(false);
-        splitPane.setLeftComponent(createLeftPanel());
-        splitPane.setRightComponent(createRightPanel());
-        mainPanel.add(splitPane, BorderLayout.CENTER);
-
-        // Footer panel
-        mainPanel.add(createFooterPanel(), BorderLayout.SOUTH);
-
-        add(mainPanel);
+        setLayout(null);
+        // initial theme: DARK
+        AstraUIKit.AstraTheme.setMode(AstraUIKit.AstraTheme.Mode.DARK);
+        buildUI();
     }
 
-    private JPanel createHeaderPanel() {
-        JPanel panel = new JPanel();
-        panel.setBackground(DARK_BG);
-        panel.setLayout(null);
+    private void buildUI(){
+        // header icons and title
+        AstraUIKit.AstraIconLabel lockIcon = new AstraUIKit.AstraIconLabel("[lock]");
+        lockIcon.setBounds(20,15,60,30);
+        add(lockIcon);
 
-        // Left side: Logo and title
-        JPanel leftHeader = new JPanel();
-        leftHeader.setBackground(DARK_BG);
-        leftHeader.setLayout(null);
+        AstraUIKit.AstraTitleLabel title = new AstraUIKit.AstraTitleLabel("Astra Writer");
+        title.setBounds(80,10,400,40);
+        add(title);
 
-        // Lock icon
-        AstraUIKit.AstraLabel lockLabel = new AstraUIKit.AstraLabel("");
-        lockLabel.setIcon(Icons.createLockIcon(32));
+        AstraUIKit.AstraIconLabel moonIcon = new AstraUIKit.AstraIconLabel("[moon]");
+        moonIcon.setBounds(600,15,50,30);
+        add(moonIcon);
 
-        leftHeader.add(lockLabel);
+        AstraUIKit.AstraIconLabel settingsIcon = new AstraUIKit.AstraIconLabel("[settings]");
+        settingsIcon.setBounds(640,15,60,30);
+        add(settingsIcon);
 
-        // Title
-        AstraUIKit.AstraLabel titleLabel = new AstraUIKit.AstraLabel("Astra Writer");
-        titleLabel.setFont(new Font("Arial", Font.BOLD, 40));
-        titleLabel.setBounds(0,0,400,60);
-        leftHeader.add(titleLabel);
-        panel.add(leftHeader);
+        AstraUIKit.AstraSubtitleLabel subtitle = new AstraUIKit.AstraSubtitleLabel("Create bootable USB drives with style.");
+        subtitle.setBounds(20,55,450,25);
+        add(subtitle);
 
-        // Right side: Icons (moon and settings)
-        JPanel rightHeader = new JPanel();
-        rightHeader.setBackground(DARK_BG);
-        rightHeader.setLayout(null);
+        // left column
+        int leftX = 20;
+        int y = 95;
 
-        AstraUIKit.AstraLabel moonLabel = new AstraUIKit.AstraLabel("");
-        moonLabel.setIcon(Icons.createMoonIcon(32));
-        rightHeader.add(moonLabel);
+        AstraUIKit.AstraGroupBox gbDevice = new AstraUIKit.AstraGroupBox("TARGET DEVICE");
+        gbDevice.setBounds(leftX,y,200,20);
+        add(gbDevice);
+        y += 30;
 
-        AstraUIKit.AstraLabel settingsLabel = new AstraUIKit.AstraLabel("");
-        settingsLabel.setIcon(Icons.createSettingsIcon(32));
-        rightHeader.add(settingsLabel);
+        AstraUIKit.AstraRoundedPanel devicePanel = new AstraUIKit.AstraRoundedPanel(14);
+        devicePanel.setLayout(null);
+        devicePanel.setBounds(leftX,y,300,50);
+        add(devicePanel);
 
-        panel.add(rightHeader, BorderLayout.EAST);
+        AstraUIKit.AstraIconLabel devLock = new AstraUIKit.AstraIconLabel("[lock]");
+        devLock.setBounds(12,10,40,30);
+        devicePanel.add(devLock);
 
-        return panel;
-    }
+        AstraUIKit.AstraComboBox deviceCombo = new AstraUIKit.AstraComboBox();
+        deviceCombo.setBounds(60,10,220,30);
+        devicePanel.add(deviceCombo);
+        y += 70;
 
-    private JPanel createSubtitlePanel() {
-        JPanel panel = new JPanel();
-        panel.setBackground(DARK_BG);
-        panel.setLayout(null);
+        AstraUIKit.AstraGroupBox gbImage = new AstraUIKit.AstraGroupBox("BOOT IMAGE");
+        gbImage.setBounds(leftX,y,200,20);
+        add(gbImage);
+        y += 30;
 
-        AstraUIKit.AstraLabel subtitle = new AstraUIKit.AstraLabel("Create bootable USB drives with style.");
-        subtitle.setFont(new Font("Arial", Font.PLAIN, 18));
-        subtitle.setForeground(TEXT_PRIMARY);
-        panel.add(subtitle);
+        AstraUIKit.AstraRoundedPanel imagePanel = new AstraUIKit.AstraRoundedPanel(14);
+        imagePanel.setLayout(null);
+        imagePanel.setBounds(leftX,y,300,50);
+        add(imagePanel);
 
-        return panel;
-    }
+        AstraUIKit.AstraComboBox imageCombo = new AstraUIKit.AstraComboBox();
+        imageCombo.setBounds(12,10,276,30);
+        imagePanel.add(imageCombo);
+        y += 70;
 
-    private JPanel createLeftPanel() {
-        AstraUIKit.AstraPanel panel = new AstraUIKit.AstraPanel();
-        panel.setLayout(null);
-        panel.setBorder(new EmptyBorder(0, 0, 0, 20));
+        AstraUIKit.AstraGroupBox gbFormat = new AstraUIKit.AstraGroupBox("FORMAT & SCHEME");
+        gbFormat.setBounds(leftX,y,200,20);
+        add(gbFormat);
+        y += 30;
 
-        // Subtitle
-        panel.add(createSubtitlePanel());
-        panel.add(Box.createVerticalStrut(20));
+        AstraUIKit.AstraRoundedPanel formatPanel = new AstraUIKit.AstraRoundedPanel(14);
+        formatPanel.setLayout(null);
+        formatPanel.setBounds(leftX,y,300,50);
+        add(formatPanel);
 
-        // Separator
-        JSeparator sep1 = new JSeparator();
-        sep1.setForeground(BORDER_COLOR);
-        sep1.setMaximumSize(new Dimension(Integer.MAX_VALUE, 1));
-        panel.add(sep1);
-        panel.add(Box.createVerticalStrut(20));
+        AstraUIKit.AstraToggleButton btnGPT = new AstraUIKit.AstraToggleButton("GPT");
+        btnGPT.setBounds(12,10,90,30);
+        btnGPT.setSelected(true);
+        formatPanel.add(btnGPT);
 
-        // Target Device Section
-        panel.add(createSectionLabel("TARGET DEVICE"));
-        panel.add(Box.createVerticalStrut(10));
-        panel.add(createDeviceSelector());
-        panel.add(Box.createVerticalStrut(20));
+        AstraUIKit.AstraToggleButton btnMBR = new AstraUIKit.AstraToggleButton("MBR");
+        btnMBR.setBounds(108,10,90,30);
+        formatPanel.add(btnMBR);
 
-        // Boot Image Section
-        panel.add(createSectionLabel("BOOT IMAGE"));
-        panel.add(Box.createVerticalStrut(10));
-        panel.add(createBootImagePanel());
-        panel.add(Box.createVerticalStrut(20));
+        // toggle linking
+        btnGPT.addPropertyChangeListener("selected", e -> { if((boolean)e.getNewValue()) btnMBR.setSelected(false); });
+        btnMBR.addPropertyChangeListener("selected", e -> { if((boolean)e.getNewValue()) btnGPT.setSelected(false); });
 
-        // Format & Scheme Section
-        panel.add(createSectionLabel("FORMAT & SCHEME"));
-        panel.add(Box.createVerticalStrut(10));
-        panel.add(createFormatSchemePanel());
-        panel.add(Box.createVerticalStrut(20));
+        // Right card
+        AstraUIKit.AstraCardPanel card = new AstraUIKit.AstraCardPanel();
+        card.setBounds(350,95,330,300);
+        add(card);
 
-        return panel;
-    }
+        AstraUIKit.AstraIconLabel osLogo = new AstraUIKit.AstraIconLabel("[ubuntu-logo]");
+        osLogo.setBounds(100,20,140,40);
+        card.add(osLogo);
 
-    private AstraUIKit.AstraLabel createSectionLabel(String text) {
-        AstraUIKit.AstraLabel label = new AstraUIKit.AstraLabel(text);
-        label.setFont(new Font("Arial", Font.BOLD, 12));
-        return label;
-    }
+        AstraUIKit.AstraLabel osTitle = new AstraUIKit.AstraLabel("Detected OS:");
+        osTitle.setFont(AstraUIKit.AstraStyles.medium(14f));
+        osTitle.setBounds(100,70,200,22);
+        card.add(osTitle);
 
-    private JPanel createDeviceSelector() {
-        JPanel panel = new RoundedPanel(15);
-        panel.setBackground(DARK_PANEL);
-        panel.setLayout(null);
-        panel.setBorder(new EmptyBorder(15, 15, 15, 15));
-        panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 60));
+        AstraUIKit.AstraLabel osName = new AstraUIKit.AstraLabel("Ubuntu 24.04 - 64-bit");
+        osName.setFont(AstraUIKit.AstraStyles.mediumBold(16f));
+        osName.setBounds(60,95,220,24);
+        card.add(osName);
 
-        AstraUIKit.AstraLabel lockLabel = new AstraUIKit.AstraLabel("");
-        lockLabel.setIcon(Icons.createLockIcon(32));
-        panel.add(lockLabel, BorderLayout.WEST);
+        AstraUIKit.AstraProgressPanel progress = new AstraUIKit.AstraProgressPanel();
+        progress.setTitle("Writing Image…");
+        progress.setValueAnimated(65);
+        progress.setEstimatedTime("Estimated write time: 4 min");
+        progress.setBounds(15,140,300,80);
+        card.add(progress);
 
-        JComboBox<String> deviceCombo = new JComboBox<>();
-        deviceCombo.setFont(new Font("Arial", Font.PLAIN, 16));
-        deviceCombo.setForeground(TEXT_PRIMARY);
-        deviceCombo.setBackground(DARK_PANEL);
-        deviceCombo.setEditable(false);
-        deviceCombo.setFocusable(true);
-        styleComboBox(deviceCombo);
-        panel.add(deviceCombo, BorderLayout.CENTER);
-
-        return panel;
-    }
-
-    private JPanel createBootImagePanel() {
-        JPanel panel = new RoundedPanel(15);
-        panel.setBackground(DARK_PANEL);
-        panel.setLayout(null);
-        panel.setBorder(new EmptyBorder(15, 15, 15, 15));
-        panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 60));
-
-        JComboBox<String> imageCombo = new JComboBox<>();
-        imageCombo.setFont(new Font("Arial", Font.PLAIN, 14));
-        imageCombo.setForeground(TEXT_PRIMARY);
-        imageCombo.setBackground(DARK_PANEL);
-        imageCombo.setEditable(false);
-        styleComboBox(imageCombo);
-        panel.add(imageCombo, BorderLayout.CENTER);
-
-        return panel;
-    }
-
-    private JPanel createFormatSchemePanel() {
-        JPanel panel = new RoundedPanel(15);
-        panel.setBackground(AstraUIKit.AstraColors.WINDOW_BG);
-        panel.setLayout(null);
-        panel.setBorder(new EmptyBorder(0, 15, 0, 0));
-        panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 60));
-        AstraUIKit.AstraButton gptButton = new AstraUIKit.AstraButton("GPT");
-        AstraUIKit.AstraButton mbrButton = new AstraUIKit.AstraButton("MBR");
-        mbrButton.setBounds(0,0,100,30);
-        gptButton.setBounds(0,200,100,30);
-        panel.setBounds(0,0,200,30);
-        panel.add(gptButton);
-        panel.add(mbrButton);
-        return panel;
-    }
-
-    private void styleComboBox(JComboBox<?> combo) {
-        combo.setUI(new javax.swing.plaf.basic.BasicComboBoxUI() {
-            @Override
-            protected JButton createArrowButton() {
-                JButton button = new JButton("›");
-                button.setFont(new Font("Arial", Font.PLAIN, 18));
-                button.setForeground(TEXT_PRIMARY);
-                button.setBackground(DARK_PANEL);
-                button.setBorder(null);
-                button.setContentAreaFilled(false);
-                return button;
-            }
-        });
-    }
-
-
-    private JPanel createRightPanel() {
-        JPanel panel = new JPanel();
-        panel.setBackground(DARK_BG);
-        panel.setLayout(null);
-        panel.setBorder(new EmptyBorder(0, 20, 0, 0));
-
-        // Info panel
-        JPanel infoPanel = new RoundedPanel(20);
-        infoPanel.setBackground(DARK_PANEL);
-        infoPanel.setLayout(null);
-        infoPanel.setBorder(new EmptyBorder(30, 30, 30, 30));
-        infoPanel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 400));
-
-        // Ubuntu logo
-        AstraUIKit.AstraLabel logoLabel = new AstraUIKit.AstraLabel("");
-        logoLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
-        infoPanel.add(logoLabel);
-        infoPanel.add(Box.createVerticalStrut(20));
-
-        // Detected OS text
-        AstraUIKit.AstraLabel osLabel1 = new AstraUIKit.AstraLabel("Detected OS:");
-        osLabel1.setFont(new Font("Arial", Font.PLAIN, 16));
-        osLabel1.setForeground(TEXT_PRIMARY);
-        osLabel1.setAlignmentX(Component.CENTER_ALIGNMENT);
-        infoPanel.add(osLabel1);
-
-        AstraUIKit.AstraLabel osLabel2 = new AstraUIKit.AstraLabel("Ubuntu 24.04 - 64-bit");
-        osLabel2.setFont(new Font("Arial", Font.BOLD, 18));
-        osLabel2.setForeground(TEXT_PRIMARY);
-        osLabel2.setAlignmentX(Component.CENTER_ALIGNMENT);
-        infoPanel.add(osLabel2);
-        infoPanel.add(Box.createVerticalStrut(20));
-
-        // Progress bar
-        AstraUIKit.AstraProgressBar progressBar = new AstraUIKit.AstraProgressBar(0, 100);
-        progressBar.setValue(65);
-        progressBar.setPreferredSize(new Dimension(300, 8));
-        progressBar.setMaximumSize(new Dimension(Integer.MAX_VALUE, 8));
-        infoPanel.add(progressBar);
-        infoPanel.add(Box.createVerticalStrut(15));
-
-        // Estimated time
-        AstraUIKit.AstraLabel timeLabel = new AstraUIKit.AstraLabel("Estimated write time: 4 min");
-        timeLabel.setFont(new Font("Arial", Font.PLAIN, 16));
-        timeLabel.setForeground(TEXT_PRIMARY);
-        timeLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
-        infoPanel.add(timeLabel);
-
-        panel.add(infoPanel);
-        panel.add(Box.createVerticalGlue());
-
-        return panel;
-    }
-
-    private JPanel createFooterPanel() {
-        JPanel panel = new JPanel();
-        panel.setBackground(DARK_BG);
-        panel.setLayout(null);
-
-        // Ready to Write
-        JPanel leftFooter = new JPanel();
-        leftFooter.setBackground(DARK_BG);
-        leftFooter.setLayout(null);
-
-        AstraUIKit.AstraLabel checkLabel = new AstraUIKit.AstraLabel("");
-        checkLabel.setIcon(Icons.createCheckIcon(24));
-        leftFooter.add(checkLabel);
+        // Footer
+        AstraUIKit.AstraIconLabel okIcon = new AstraUIKit.AstraIconLabel("[check]");
+        okIcon.setBounds(20,430,50,30);
+        add(okIcon);
 
         AstraUIKit.AstraLabel readyLabel = new AstraUIKit.AstraLabel("Ready to Write");
-        readyLabel.setFont(new Font("Arial", Font.PLAIN, 18));
-        readyLabel.setForeground(TEXT_PRIMARY);
-        leftFooter.add(readyLabel);
+        readyLabel.setFont(AstraUIKit.AstraStyles.medium(16f));
+        readyLabel.setBounds(60,430,200,30);
+        add(readyLabel);
 
-        panel.add(leftFooter, BorderLayout.WEST);
+        AstraUIKit.AstraButton createBtn = new AstraUIKit.AstraButton("Create Bootable Drive →");
+        createBtn.setBounds(430,425,230,40);
+        add(createBtn);
 
-        // Create Bootable Drive Button
-        JButton createButton = new JButton("Create Bootable Drive  →");
-        createButton.setFont(new Font("Arial", Font.BOLD, 16));
-        createButton.setBackground(DARK_BG);
-        createButton.setBorder(new RoundedBorder(GOLD, 2, 15));
-        createButton.setFocusPainted(false);
-        createButton.setContentAreaFilled(false);
-        createButton.setBorderPainted(true);
-        createButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        // Expand / Contract button
+        AstraUIKit.AstraButton expandBtn = new AstraUIKit.AstraButton("Expand");
+        expandBtn.setBounds(320,425,90,34);
+        add(expandBtn);
 
-        JPanel rightFooter = new JPanel();
-        rightFooter.setBackground(DARK_BG);
-        rightFooter.setLayout(null);
-        rightFooter.add(createButton);
-        panel.add(rightFooter, BorderLayout.EAST);
+        // Expand action: animate between collapsedSize and expandedSize
+        expandBtn.addActionListener(e -> {
+            if (resizeTimer != null && resizeTimer.isRunning()) return; // ignore while animating
+            Dimension from = getSize();
+            Dimension to = expanded ? collapsedSize : expandedSize;
+            int frames = Math.max(1, animDurationMs / animIntervalMs);
+            int startW = from.width, startH = from.height;
+            int targetW = to.width, targetH = to.height;
+            final int[] step = {0};
+            resizeTimer = new Timer(animIntervalMs, null);
+            long startTime = System.currentTimeMillis();
+            resizeTimer.addActionListener(evt -> {
+                float t = (System.currentTimeMillis() - startTime) / (float) animDurationMs;
+                if (t >= 1f) t = 1f;
+                // ease in-out cubic
+                float tt = (t < 0.5f) ? (4*t*t*t) : (1 - (float)Math.pow(-2*t + 2, 3)/2f);
+                int nw = Math.round(startW + (targetW - startW) * tt);
+                int nh = Math.round(startH + (targetH - startH) * tt);
+                setSize(nw, nh);
+                revalidate(); repaint();
+                // keep centered during animation
+                setLocationRelativeTo(null);
+                if (t >= 1f) {
+                    resizeTimer.stop();
+                    expanded = !expanded;
+                    expandBtn.setText(expanded ? "Contract" : "Expand");
+                }
+            });
+            resizeTimer.start();
+        });
 
-        // Separator
-        JSeparator sep = new JSeparator(SwingConstants.HORIZONTAL);
-        sep.setForeground(BORDER_COLOR);
-        panel.add(sep, BorderLayout.NORTH);
+        // Example theme toggle (you can wire this to a settings toggle)
+        // For demonstration add a small theme-toggle button
+        AstraUIKit.AstraButton themeBtn = new AstraUIKit.AstraButton("Light");
+        themeBtn.setBounds(540, 15, 80, 30);
+        add(themeBtn);
+        themeBtn.addActionListener(ae -> {
+            if (AstraUIKit.AstraTheme.getMode() == AstraUIKit.AstraTheme.Mode.DARK) {
+                AstraUIKit.AstraTheme.setMode(AstraUIKit.AstraTheme.Mode.LIGHT);
+                themeBtn.setText("Dark");
+            } else {
+                AstraUIKit.AstraTheme.setMode(AstraUIKit.AstraTheme.Mode.DARK);
+                themeBtn.setText("Light");
+            }
+            // repaint everything
+            repaintAll(this);
+        });
 
-        return panel;
+        // Note: label glow is disabled by default. enable manually:
+        // someLabel.enableGlow(true);
     }
 
-    // Custom rounded panel class
-    static class RoundedPanel extends JPanel {
-        private int radius;
-
-        public RoundedPanel(int radius) {
-            this.radius = radius;
-            setOpaque(false);
-        }
-
-        @Override
-        protected void paintComponent(Graphics g) {
-            Graphics2D g2 = (Graphics2D) g;
-            g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-
-            g2.setColor(getBackground());
-            g2.fillRoundRect(0, 0, getWidth(), getHeight(), radius, radius);
-            g2.setColor(BORDER_COLOR);
-            g2.setStroke(new BasicStroke(1));
-            g2.drawRoundRect(0, 0, getWidth() - 1, getHeight() - 1, radius, radius);
-
-            super.paintComponent(g);
-        }
-    }
-
-    // Custom rounded border class
-    static class RoundedBorder extends javax.swing.border.AbstractBorder {
-        private Color color;
-        private int thickness;
-        private int radius;
-
-        public RoundedBorder(Color color, int thickness, int radius) {
-            this.color = color;
-            this.thickness = thickness;
-            this.radius = radius;
-        }
-
-        @Override
-        public void paintBorder(Component c, Graphics g, int x, int y, int width, int height) {
-            Graphics2D g2 = (Graphics2D) g;
-            g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-            g2.setColor(color);
-            g2.setStroke(new BasicStroke(thickness));
-            g2.drawRoundRect(x, y, width - 1, height - 1, radius, radius);
+    // helper to repaint whole window after theme switch
+    private void repaintAll(Component root) {
+        root.repaint();
+        if (root instanceof Container) {
+            for (Component c : ((Container) root).getComponents()) repaintAll(c);
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         SwingUtilities.invokeLater(() -> {
-            AstraWriter frame = new AstraWriter();
-            frame.setVisible(true);
+            AstraWriter w = new AstraWriter();
+            w.setVisible(true);
         });
     }
 }

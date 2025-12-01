@@ -1,8 +1,5 @@
 package com.astrawriter.core;
 
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
-
 public class usbFormats {
     private String os = SoftwareInfo.getPlatform();
 
@@ -26,8 +23,4 @@ public class usbFormats {
         return "exfat";
     }
 
-    @Contract(pure = true)
-    public static @NotNull String NTFS() {
-        return "";
-    }
 }
