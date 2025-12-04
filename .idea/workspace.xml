@@ -4,390 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2871a6a-ecf0-4bfb-9ee8-3c98f0671a54" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sevenzipjbinding_AllPlatforms.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/1000_F_476887551_To06orGUP2FCthNrqHnfNsuNXkXNjfTT-transformed.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/5_auto_x2_colored.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/5_auto_x2_colored_auto_x2_colored.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/7zr.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/7zz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/7zz1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/7zzs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/About.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/BigSur.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/BigSur_1024x1024x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/BigSur_16x16x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/BigSur_256x256x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/BigSur_32x32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/BigSur_512x512x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Catalina.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Checkmark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/HighSierra.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/InformationSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Linux_Aquamorphic.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Mojave.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Monterey.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Monterey_1024x1024x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Monterey_16x16x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Monterey_256x256x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Monterey_32x32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Monterey_512x512x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/OS-Linux-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/QuestionSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Ventura.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Ventura_1024x1024x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Ventura_16x16x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Ventura_256x256x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Ventura_32x32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Ventura_512x512x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/WarningSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Win7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/Win7_Vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/apple_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/apple_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/apple_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/apple_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/arch-aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/arch-vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/arch_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/arch_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/black_arch-aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/black_arch_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/black_arch_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/black_arch_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/checkmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/crossmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/crossmark_2000x2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/dd.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/debian_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/debian_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/debian_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/debian_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/deepin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/deepin_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/deepin_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/deepin_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/elementaryOS_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/elementaryOS_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/elementaryOS_sqaure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/elementaryOS_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/errorSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/fedora_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/fedora_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/fedora_sqaure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/fedora_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_128x1281.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_128x128@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_128x128@2x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_16x161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_16x16@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_16x16@2x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_256x2561.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_256x256@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_256x256@2x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_32x321.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_32x32@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_32x32@2x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_512x5121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_512x512@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/icon_512x512@2x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/images.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/iso.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/kubuntu-aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/kubuntu-round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/kubuntu-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/kubuntu-vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/linux-mint_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/linux_mint_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/linux_mint_sqaure.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/linux_mint_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/macOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/manjaro_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/manjaro_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/manjaro_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/manjaro_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/pngegg-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/redhat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/redhat_aquamorhpic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/redhat_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/solus_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/solus_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/solus_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/solus_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/ubuntu-mate-aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/ubuntu-mate-round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/ubuntu-mate-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/ubuntu-mate-vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/ubuntu-studio-aquamorphic.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/ubuntu_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/ubuntu_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/ubuntu_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/ubuntu_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/uu-aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/uu-round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/uu-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/uu-vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/win.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/win11_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/win11_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/win11_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/win11_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/win7_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/win7_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/win_xp_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/windows-8-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/windows_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/windows_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/windows_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/windows_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/winxp_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/winxp_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/winxp_round2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25,_11_40 pm_[Changes]/winxp_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_25__11_40pm__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/1000_F_476887551_To06orGUP2FCthNrqHnfNsuNXkXNjfTT-transformed.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/5_auto_x2_colored.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/5_auto_x2_colored_auto_x2_colored.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/7zr.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/7zz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/7zz1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/7zzs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/About.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur_1024x1024x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur_16x16x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur_256x256x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur_32x32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/BigSur_512x512x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Catalina.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Checkmark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/HighSierra.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/InformationSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Linux_Aquamorphic.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Mojave.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey_1024x1024x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey_16x16x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey_256x256x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey_32x32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Monterey_512x512x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/OS-Linux-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/QuestionSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura_1024x1024x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura_16x16x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura_256x256x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura_32x32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Ventura_512x512x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/WarningSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Win7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Win7_Vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/apple_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/apple_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/apple_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/apple_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/arch-aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/arch-vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/arch_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/arch_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/black_arch-aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/black_arch_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/black_arch_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/black_arch_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/checkmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/crossmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/crossmark_2000x2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/dd.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/debian_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/debian_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/debian_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/debian_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/deepin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/deepin_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/deepin_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/deepin_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/elementaryOS_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/elementaryOS_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/elementaryOS_sqaure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/elementaryOS_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/errorSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/fedora_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/fedora_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/fedora_sqaure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/fedora_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_128x1281.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_128x128@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_128x128@2x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_16x161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_16x16@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_16x16@2x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_256x2561.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_256x256@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_256x256@2x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_32x321.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_32x32@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_32x32@2x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_512x5121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_512x512@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/icon_512x512@2x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/images.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/iso.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/kubuntu-aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/kubuntu-round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/kubuntu-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/kubuntu-vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/linux-mint_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/linux_mint_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/linux_mint_sqaure.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/linux_mint_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/macOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/manjaro_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/manjaro_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/manjaro_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/manjaro_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/pngegg-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/redhat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/redhat_aquamorhpic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/redhat_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/solus_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/solus_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/solus_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/solus_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu-mate-aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu-mate-round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu-mate-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu-mate-vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu-studio-aquamorphic.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ubuntu_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/uu-aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/uu-round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/uu-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/uu-vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win11_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win11_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win11_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win11_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win7_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win7_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/win_xp_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/windows-8-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/windows_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/windows_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/windows_square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/windows_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/winxp_aquamorphic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/winxp_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/winxp_round2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/winxp_vibrant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+    <list default="true" id="b2871a6a-ecf0-4bfb-9ee8-3c98f0671a54" name="Changes" comment="Basic features added">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/check2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/check3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/image-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/moon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/ub.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/usb.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/AstraUIKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/AstraUIKit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/AstraWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/AstraWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/Definitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/Downloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/ExpandablePanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/FileOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/FileIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/URLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/URLs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/core/Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/core/Archive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/core/usbFormats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/core/usbFormats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/5_auto_x2_colored.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/5_auto_x2_colored_auto_x2_colored.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/shell/scripts/dependencies/7z-linux/7zz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/shell/scripts/dependencies/7z-linux/7zzs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/shell/scripts/dependencies/7z-win/7zr.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/shell/scripts/dependencies/7z_mac/7zz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/5_auto_x2_colored.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/5_auto_x2_colored_auto_x2_colored.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS1015/icon_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS1015/icon_128x128@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS1015/icon_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS1015/icon_16x16@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS1015/icon_256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS1015/icon_256x256@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS1015/icon_32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS1015/icon_32x32@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS1015/icon_512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS1015/icon_512x512@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS11/icon_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS11/icon_128x128@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS11/icon_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS11/icon_16x16@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS11/icon_256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS11/icon_256x256@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS11/icon_32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS11/icon_32x32@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS11/icon_512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/app_icons/ico_macOS11/icon_512x512@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/shell/scripts/dependencies/7z-linux/7zz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/shell/scripts/dependencies/7z-linux/7zzs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/shell/scripts/dependencies/7z-win/7zr.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/shell/scripts/dependencies/7z_mac/7zz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/springboot-5.3.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/1000_F_476887551_To06orGUP2FCthNrqHnfNsuNXkXNjfTT-transformed.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/BigSur.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Catalina.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/HighSierra.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-aquamorphic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-aquamorphic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-round.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-square.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-vibrant.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-vibrant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Mojave.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_1024x1024x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_16x16x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_256x256x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_32x32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_512x512x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_1024x1024x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_16x16x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_256x256x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_32x32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_512x512x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/win.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/icon1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="SimpleSourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -435,47 +89,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.ALabel.executor": "Run",
-    "Application.AProgressBar.executor": "Run",
-    "Application.AstraUIKit.executor": "Run",
-    "Application.AstraWriter.executor": "Run",
-    "Application.AstraWriterUI.executor": "Run",
-    "Application.AstraWriterUI_CustomComponents.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.RoundGoldButton.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rishon/IdeaProjects/AstraWriter/libs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/rishon/IdeaProjects/AstraWriter/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ALabel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AProgressBar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AstraUIKit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AstraWriter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AstraWriterUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AstraWriterUI_CustomComponents.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RoundGoldButton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rishon/IdeaProjects/AstraWriter/libs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/rishon/IdeaProjects/AstraWriter/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/libs" />
@@ -485,6 +139,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/astrawriter" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/../Astra.old" />
     </key>
@@ -511,8 +166,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
@@ -532,7 +187,12 @@
       <workItem from="1764379884123" duration="544000" />
       <workItem from="1764491523880" duration="1146000" />
       <workItem from="1764559854254" duration="1181000" />
-      <workItem from="1764603290001" duration="8590000" />
+      <workItem from="1764603290001" duration="9760000" />
+      <workItem from="1764672888068" duration="15887000" />
+      <workItem from="1764725349709" duration="18635000" />
+      <workItem from="1764786267232" duration="7979000" />
+      <workItem from="1764802042479" duration="4264000" />
+      <workItem from="1764819498854" duration="16581000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -542,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764092325218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cleaned up files">
+      <option name="closed" value="true" />
+      <created>1764624239583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764624239583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Basic features added">
+      <option name="closed" value="true" />
+      <created>1764624274378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764624274378</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +226,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Cleaned up files" />
+    <MESSAGE value="Basic features added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic features added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -566,5 +244,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AstraWriter$AstraWriter.ic" NAME="AstraWriter Coverage Results" MODIFIED="1764700458420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.astrawriter.*</FILTER>
+    </SUITE>
   </component>
 </project>

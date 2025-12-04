@@ -1,19 +1,18 @@
 package com.astrawriter;
 
 import javax.swing.*;
+import javax.swing.filechooser.FileSystemView;
 import java.awt.*;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Objects;
 
-/**
- * AstraWriter.java
- *
- * Uses only AstraUIKit components.
- * Null layout, medium layout 700x500 (collapsed), expandable to configurable size.
- *
- * Expand/Contract animation implemented via Timer interpolation.
- */
+
 public class AstraWriter extends AstraUIKit.AstraWindow {
 
     // adjustable sizes — change later as needed
+    private FileChooser fileChooser = new FileChooser();
     private Dimension collapsedSize = new Dimension(700, 500);
     private Dimension expandedSize  = new Dimension(1000, 700);
 
@@ -35,24 +34,31 @@ public class AstraWriter extends AstraUIKit.AstraWindow {
     }
 
     private void buildUI(){
-        // header icons and title
-        AstraUIKit.AstraIconLabel lockIcon = new AstraUIKit.AstraIconLabel("[lock]");
-        lockIcon.setBounds(20,15,60,30);
+        AstraUIKit.AstraIconLabel lockIcon = new AstraUIKit.AstraIconLabel(new ImageIcon(Objects.requireNonNull(AstraWriter.class.getResource("image-3.png"))));
+        lockIcon.setBounds(10,0,64,64);
         add(lockIcon);
 
         AstraUIKit.AstraTitleLabel title = new AstraUIKit.AstraTitleLabel("Astra Writer");
         title.setBounds(80,10,400,40);
         add(title);
 
-        AstraUIKit.AstraIconLabel moonIcon = new AstraUIKit.AstraIconLabel("[moon]");
-        moonIcon.setBounds(600,15,50,30);
+        AstraUIKit.AstraIconLabel moonIcon = new AstraUIKit.AstraIconLabel(new ImageIcon(Objects.requireNonNull(AstraWriter.class.getResource("moon.png"))));
+        moonIcon.setBounds(560,0,80,80);
         add(moonIcon);
 
-        AstraUIKit.AstraIconLabel settingsIcon = new AstraUIKit.AstraIconLabel("[settings]");
-        settingsIcon.setBounds(640,15,60,30);
+        AstraUIKit.AstraRoundButton moonButton = new AstraUIKit.AstraRoundButton("");
+        moonButton.setBounds(590,24,35,35);
+        add(moonButton);
+
+        AstraUIKit.AstraIconLabel settingsIcon = new AstraUIKit.AstraIconLabel(new ImageIcon(Objects.requireNonNull(AstraWriter.class.getResource("gear.png"))));
+        settingsIcon.setBounds(627,27,80,30);
         add(settingsIcon);
 
-        AstraUIKit.AstraSubtitleLabel subtitle = new AstraUIKit.AstraSubtitleLabel("Create bootable USB drives with style.");
+        AstraUIKit.AstraRoundButton settingsButton = new AstraUIKit.AstraRoundButton("");
+        settingsButton.setBounds(640,24,35,35);
+        add(settingsButton);
+
+        AstraUIKit.AstraSubtitleLabel subtitle = new AstraUIKit.AstraSubtitleLabel("Create bootable USB drives with ease.");
         subtitle.setBounds(20,55,450,25);
         add(subtitle);
 
@@ -70,13 +76,12 @@ public class AstraWriter extends AstraUIKit.AstraWindow {
         devicePanel.setBounds(leftX,y,300,50);
         add(devicePanel);
 
-        AstraUIKit.AstraIconLabel devLock = new AstraUIKit.AstraIconLabel("[lock]");
-        devLock.setBounds(12,10,40,30);
-        devicePanel.add(devLock);
-
-        AstraUIKit.AstraComboBox deviceCombo = new AstraUIKit.AstraComboBox();
-        deviceCombo.setBounds(60,10,220,30);
-        devicePanel.add(deviceCombo);
+        AstraUIKit.AstraTextField deviceTextField = new AstraUIKit.AstraTextField(new ImageIcon(Objects.requireNonNull(AstraWriter.class.getResource("ub.png"))));
+        deviceTextField.addActionListener(e -> {
+            deviceTextField.setText(fileChooser.getDisk());
+        });
+        deviceTextField.setBounds(0,0,300,50);
+        devicePanel.add(deviceTextField);
         y += 70;
 
         AstraUIKit.AstraGroupBox gbImage = new AstraUIKit.AstraGroupBox("BOOT IMAGE");
@@ -89,8 +94,8 @@ public class AstraWriter extends AstraUIKit.AstraWindow {
         imagePanel.setBounds(leftX,y,300,50);
         add(imagePanel);
 
-        AstraUIKit.AstraComboBox imageCombo = new AstraUIKit.AstraComboBox();
-        imageCombo.setBounds(12,10,276,30);
+        AstraUIKit.AstraTextField imageCombo = new AstraUIKit.AstraTextField(new ImageIcon(AstraWriter.class.getResource("")));
+        imageCombo.setBounds(0,0,300,50);
         imagePanel.add(imageCombo);
         y += 70;
 
@@ -105,12 +110,12 @@ public class AstraWriter extends AstraUIKit.AstraWindow {
         add(formatPanel);
 
         AstraUIKit.AstraToggleButton btnGPT = new AstraUIKit.AstraToggleButton("GPT");
-        btnGPT.setBounds(12,10,90,30);
+        btnGPT.setBounds(0,0,150,50);
         btnGPT.setSelected(true);
         formatPanel.add(btnGPT);
 
         AstraUIKit.AstraToggleButton btnMBR = new AstraUIKit.AstraToggleButton("MBR");
-        btnMBR.setBounds(108,10,90,30);
+        btnMBR.setBounds(150,0,150,50);
         formatPanel.add(btnMBR);
 
         // toggle linking
@@ -137,20 +142,21 @@ public class AstraWriter extends AstraUIKit.AstraWindow {
         card.add(osName);
 
         AstraUIKit.AstraProgressPanel progress = new AstraUIKit.AstraProgressPanel();
+        progress.setBarSize(300,20);
         progress.setTitle("Writing Image…");
         progress.setValueAnimated(65);
         progress.setEstimatedTime("Estimated write time: 4 min");
-        progress.setBounds(15,140,300,80);
+        progress.setBounds(15,200,300,80);
         card.add(progress);
 
         // Footer
-        AstraUIKit.AstraIconLabel okIcon = new AstraUIKit.AstraIconLabel("[check]");
-        okIcon.setBounds(20,430,50,30);
+        AstraUIKit.AstraIconLabel okIcon = new AstraUIKit.AstraIconLabel(new ImageIcon(AstraWriter.class.getResource("check3.png")));
+        okIcon.setBounds(20,410,64,64);
         add(okIcon);
 
         AstraUIKit.AstraLabel readyLabel = new AstraUIKit.AstraLabel("Ready to Write");
         readyLabel.setFont(AstraUIKit.AstraStyles.medium(16f));
-        readyLabel.setBounds(60,430,200,30);
+        readyLabel.setBounds(65,430,200,30);
         add(readyLabel);
 
         AstraUIKit.AstraButton createBtn = new AstraUIKit.AstraButton("Create Bootable Drive →");
@@ -195,23 +201,21 @@ public class AstraWriter extends AstraUIKit.AstraWindow {
 
         // Example theme toggle (you can wire this to a settings toggle)
         // For demonstration add a small theme-toggle button
-        AstraUIKit.AstraButton themeBtn = new AstraUIKit.AstraButton("Light");
-        themeBtn.setBounds(540, 15, 80, 30);
-        add(themeBtn);
-        themeBtn.addActionListener(ae -> {
-            if (AstraUIKit.AstraTheme.getMode() == AstraUIKit.AstraTheme.Mode.DARK) {
-                AstraUIKit.AstraTheme.setMode(AstraUIKit.AstraTheme.Mode.LIGHT);
-                themeBtn.setText("Dark");
-            } else {
-                AstraUIKit.AstraTheme.setMode(AstraUIKit.AstraTheme.Mode.DARK);
-                themeBtn.setText("Light");
-            }
-            // repaint everything
-            repaintAll(this);
-        });
+//        AstraUIKit.AstraButton themeBtn = new AstraUIKit.AstraButton("Light");
+//        themeBtn.setBounds(540, 15, 80, 30);
+//        add(themeBtn);
+//        themeBtn.addActionListener(ae -> {
+//            if (AstraUIKit.AstraTheme.getMode() == AstraUIKit.AstraTheme.Mode.DARK) {
+//                AstraUIKit.AstraTheme.setMode(AstraUIKit.AstraTheme.Mode.LIGHT);
+//                themeBtn.setText("Dark");
+//            } else {
+//                AstraUIKit.AstraTheme.setMode(AstraUIKit.AstraTheme.Mode.DARK);
+//                themeBtn.setText("Light");
+//            }
+//            // repaint everything
+//            repaintAll(this);
+//        });
 
-        // Note: label glow is disabled by default. enable manually:
-        // someLabel.enableGlow(true);
     }
 
     // helper to repaint whole window after theme switch
@@ -222,10 +226,79 @@ public class AstraWriter extends AstraUIKit.AstraWindow {
         }
     }
 
-    public static void main(String[] args){
+    static void main(){
         SwingUtilities.invokeLater(() -> {
             AstraWriter w = new AstraWriter();
             w.setVisible(true);
         });
     }
+}
+
+class FileChooser{
+    JFileChooser chooser = new JFileChooser();
+    FileSystemView fsv = FileSystemView.getFileSystemView();
+    public String getDisk(){
+        String os =  System.getProperty("os.name").toLowerCase();
+        if(os.contains("win")){
+            fsv = createDriveOnlyFSV(getDisksWindows());
+            chooser = new JFileChooser(fsv);
+            chooser.setAcceptAllFileFilterUsed(false);
+        }
+        else if (os.contains("mac")) chooser.setCurrentDirectory(new File("/Volumes/"));
+        else if (os.contains("linux"))chooser.setCurrentDirectory(new File("/media/"));
+
+        chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        chooser.setMultiSelectionEnabled(false);
+        chooser.setDialogTitle("Select a Volume");
+        chooser.setDialogType(JFileChooser.OPEN_DIALOG);
+        if (chooser.showOpenDialog(null) == 0)
+            return chooser.getSelectedFile().getAbsolutePath();
+        return null;
+    }
+    private File[] getDisksWindows() {
+        ArrayList<File> drives = new ArrayList<>(26);
+
+        for (char c = 'A'; c <= 'Z'; c++) {
+            File drive = new File(c + ":\\");
+            if (drive.exists()) {
+                drives.add(drive);
+            }
+        }
+
+        return drives.toArray(new File[0]);
+    }
+    private FileSystemView createDriveOnlyFSV(File[] drives) {
+        return new FileSystemView() {
+
+            @Override
+            public File[] getRoots() {
+                return drives; // Show ONLY these drives
+            }
+
+            @Override
+            public boolean isRoot(File f) {
+                for (File d : drives) {
+                    if (d.equals(f)) return true;
+                }
+                return false;
+            }
+
+            @Override
+            public File createNewFolder(File containingDir) throws IOException {
+                return null;
+            }
+
+            @Override
+            public File getHomeDirectory() {
+                return drives.length > 0 ? drives[0] : new File("C:\\");
+            }
+
+            @Override
+            public File getDefaultDirectory() {
+                return getHomeDirectory();
+            }
+        };
+    }
+
+
 }

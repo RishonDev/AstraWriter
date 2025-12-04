@@ -6,6 +6,7 @@ import javax.swing.plaf.basic.ComboPopup;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.*;
+import java.util.ArrayList;
 
 /**
  * AstraUIKit.java
@@ -34,7 +35,7 @@ public class AstraUIKit {
         private static final Color D_SOFT = new Color(0xE6E0C8);
         private static final Color D_TRACK_TOP = new Color(0x0E0E0E);
         private static final Color D_TRACK_BOTTOM = new Color(0x151515);
-        private static final Color D_GOLD = new Color(0xD4AF37);
+        private static final Color D_GOLD = new Color(237,208,125);
         private static final Color D_GOLD_DARK = new Color(0xA67C1A);
 
         // Light palette
@@ -79,7 +80,7 @@ public class AstraUIKit {
      *  BASE LABEL
      *  - glow disabled by default, enableGlow(true) to enable
      * ============================================================ */
-    public static class AstraLabel extends JComponent {
+    public static class AstraLabel extends JLabel {
         private String text;
         private Icon icon;
         private boolean hoverGlow = false;     // default disabled
@@ -91,6 +92,9 @@ public class AstraUIKit {
             this.text = text == null ? "" : text;
             setOpaque(false);
             setCursor(Cursor.getDefaultCursor());
+        }
+        public AstraLabel(ImageIcon icon) {
+            super(icon);
         }
 
         public void setText(String text) { this.text = text == null ? "" : text; repaint(); }
@@ -191,6 +195,10 @@ public class AstraUIKit {
      *  ICON LABEL (placeholder or real icon)
      * ============================================================ */
     public static class AstraIconLabel extends AstraLabel {
+        public AstraIconLabel(ImageIcon textOrPlaceholder) {
+            super(textOrPlaceholder);
+            setFont(AstraStyles.mediumBold(13f));
+        }
         public AstraIconLabel(String textOrPlaceholder) {
             super(textOrPlaceholder);
             setFont(AstraStyles.mediumBold(13f));
@@ -246,13 +254,24 @@ public class AstraUIKit {
     /* ============================================================
      *  BUTTONS & TOGGLES
      * ============================================================ */
-    public static class AstraButton extends JComponent {
+    public static class AstraButton extends JButton {
         private String text;
         private boolean hover=false, pressed=false;
         public AstraButton(String text) {
             this.text = text;
             setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
             setPreferredSize(new Dimension(140,36));
+            addMouseListener(new MouseAdapter(){
+                public void mouseEntered(MouseEvent e){ hover=true; repaint(); }
+                public void mouseExited(MouseEvent e){ hover=false; pressed=false; repaint(); }
+                public void mousePressed(MouseEvent e){ pressed=true; repaint(); }
+                public void mouseReleased(MouseEvent e){ pressed=false; repaint(); fireAction(); }
+            });
+        }
+        public AstraButton(ImageIcon img, String text) {
+            super.setIcon(img);
+            this.text = text;
+            setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
             addMouseListener(new MouseAdapter(){
                 public void mouseEntered(MouseEvent e){ hover=true; repaint(); }
                 public void mouseExited(MouseEvent e){ hover=false; pressed=false; repaint(); }
@@ -312,14 +331,18 @@ public class AstraUIKit {
             this.text=text;
             setPreferredSize(new Dimension(90,32));
             setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-            addMouseListener(new MouseAdapter(){
-                @Override public void mouseClicked(MouseEvent e){
-                    boolean old = selected;
-                    selected = !selected;
-                    repaint();
-                    firePropertyChange("selected", old, selected);
+            addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+                    if (!selected) {            // prevent unselecting
+                        boolean old = selected;
+                        selected = true;
+                        repaint();
+                        firePropertyChange("selected", old, selected);
+                    }
                 }
             });
+
         }
         public void setSelected(boolean s){ boolean old = selected; selected=s; repaint(); firePropertyChange("selected", old, selected); }
         public boolean isSelected(){ return selected; }
@@ -330,12 +353,12 @@ public class AstraUIKit {
                 g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
                 int w = getWidth(), h = getHeight();
                 Shape r = new RoundRectangle2D.Float(0,0,w-1,h-1,14,14);
-                if(selected){
-                    g2.setPaint(new GradientPaint(0,0,AstraTheme.gold(),0,h,AstraTheme.goldDark()));
-                } else {
-                    g2.setPaint(new GradientPaint(0,0,new Color(35,35,35),0,h,new Color(20,20,20)));
-                }
-                g2.fill(r);
+//                if(selected){
+//                    g2.setPaint(new GradientPaint(0,0,AstraTheme.gold(),0,h,AstraTheme.goldDark()));
+//                } else {
+//                    g2.setPaint(new GradientPaint(0,0,new Color(35,35,35),0,h,new Color(20,20,20)));
+//                }
+//                g2.fill(r);
                 g2.setStroke(new BasicStroke(1.6f));
                 g2.setPaint(selected ? AstraTheme.goldDark() : AstraTheme.border());
                 g2.draw(r);
@@ -343,7 +366,7 @@ public class AstraUIKit {
                 FontMetrics fm = g2.getFontMetrics();
                 int tx = (w - fm.stringWidth(text)) / 2;
                 int ty = (h + fm.getAscent())/2 - fm.getDescent();
-                g2.setPaint(selected ? Color.BLACK : AstraTheme.softText());
+                g2.setPaint(selected ? AstraTheme.gold() : AstraTheme.softText());
                 g2.drawString(text, tx, ty);
             } finally { g2.dispose(); }
         }
@@ -368,7 +391,7 @@ public class AstraUIKit {
 
     public static class AstraGroupBox extends JComponent {
         private String title;
-        private Font font = AstraStyles.mediumBold(12f);
+        private Font font = AstraStyles.medium(16f);
         public AstraGroupBox(String title){ this.title = title; setPreferredSize(new Dimension(180,20)); }
         @Override protected void paintComponent(Graphics g){
             Graphics2D g2 = (Graphics2D) g.create();
@@ -477,26 +500,133 @@ public class AstraUIKit {
     }
 
     public static class AstraTextField extends JTextField {
-        public AstraTextField(){ init(); }
-        public AstraTextField(String txt){ super(txt); init(); }
-        private void init(){
+
+        private ImageIcon icon = null;
+
+        // right-side caret button
+        private Rectangle caretButtonBounds = new Rectangle(0,0,0,0);
+        private java.util.List<ActionListener> listeners = new ArrayList<>();
+
+        public AstraTextField() { init(); }
+        public AstraTextField(ImageIcon i) { icon = i; init(); }
+        public AstraTextField(String txt) { super(txt); init(); }
+
+        private void init() {
+
+            // ⌘+Backspace clear on mac
+            if (System.getProperty("os.name").toLowerCase().contains("mac")) {
+                KeyStroke cmdDelete = KeyStroke.getKeyStroke(
+                        KeyEvent.VK_BACK_SPACE,
+                        Toolkit.getDefaultToolkit().getMenuShortcutKeyMaskEx()
+                );
+
+                getInputMap().put(cmdDelete, "clearField");
+                getActionMap().put("clearField", new AbstractAction() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) { setText(""); }
+                });
+            }
+
             setOpaque(false);
             setForeground(AstraTheme.softText());
             setCaretColor(AstraTheme.gold());
             setFont(AstraStyles.medium(13f));
-            setBorder(BorderFactory.createEmptyBorder(10,14,10,14));
+
+            // mouse click listener for ^ button
+            addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseReleased(MouseEvent e) {
+                    if (caretButtonBounds.contains(e.getPoint())) {
+                        fireActionEvent();
+                    }
+                }
+            });
+
+            updateInsets();
         }
-        @Override protected void paintComponent(Graphics g){
+
+        /** Update padding so caret/text avoid the ^ button and icon */
+        private void updateInsets() {
+            int left = 0;
+
+            // icon on left
+            if (icon != null)
+                left += icon.getIconWidth() + 3;
+
+            int right = 16 + 10; // ^ button width + padding
+
+            setBorder(BorderFactory.createEmptyBorder(10, left, 10, right));
+        }
+
+        // setter
+        public void setIcon(ImageIcon i) {
+            this.icon = i;
+            updateInsets();
+            repaint();
+        }
+
+        public ImageIcon getIcon() { return this.icon; }
+
+        // JButton-style API
+        public void addActionListener(ActionListener l) { listeners.add(l); }
+        private void fireActionEvent() {
+            ActionEvent e = new ActionEvent(this, ActionEvent.ACTION_PERFORMED, "caretButton");
+            for (ActionListener l : listeners) l.actionPerformed(e);
+        }
+
+        @Override
+        protected void paintComponent(Graphics g) {
             Graphics2D g2 = (Graphics2D) g.create();
             try {
                 g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+
                 int w = getWidth(), h = getHeight();
-                GradientPaint gp = new GradientPaint(0,0,new Color(0x111111),0,h,new Color(0x0C0C0C));
-                Shape r = new RoundRectangle2D.Float(0,0,w-1,h-1,14,14);
-                g2.setPaint(gp); g2.fill(r);
-                g2.setPaint(new GradientPaint(0,0,AstraTheme.gold(),0,h,AstraTheme.goldDark()));
-                g2.setStroke(new BasicStroke(1.4f)); g2.draw(r);
-            } finally { g2.dispose(); }
+
+                // background
+                GradientPaint gp = new GradientPaint(
+                        0, 0, new Color(0x111111),
+                        0, h, new Color(0x0C0C0C)
+                );
+                Shape r = new RoundRectangle2D.Float(0, 0, w - 1, h - 1, 14, 14);
+                g2.setPaint(gp);
+                g2.fill(r);
+
+                // border
+                g2.setPaint(new GradientPaint(
+                        0, 0, AstraTheme.gold(),
+                        0, h, AstraTheme.goldDark())
+                );
+                g2.setStroke(new BasicStroke(1.4f));
+                g2.draw(r);
+
+                // draw icon on LEFT
+                if (icon != null) {
+                    int y = (h - icon.getIconHeight()) / 2;
+                    icon.paintIcon(this, g2, 0, y);
+                }
+
+                // RIGHT-SIDE ^ BUTTON
+                int btnW = 12, btnH = 12;
+                int btnX = w - btnW - 6;   // 6px from the right border
+                int btnY = (h - btnH) / 2;
+
+                caretButtonBounds.setBounds(btnX, btnY, btnW, btnH);
+
+                // draw "^"
+                g2.setColor(AstraTheme.gold());
+                g2.setFont(getFont());
+
+                FontMetrics fm = g2.getFontMetrics();
+                String caret = "^";
+                int tx = btnX + (btnW - fm.stringWidth(caret)) / 2;
+                int ty = btnY + (btnH + fm.getAscent() - fm.getDescent()) / 2;
+
+                g2.drawString(caret, tx, ty);
+
+            } finally {
+                g2.dispose();
+            }
+
             super.paintComponent(g);
         }
     }
@@ -589,17 +719,20 @@ public class AstraUIKit {
         private final AstraLabel titleLabel = new AstraLabel("");
         private final AstraLabel captionLabel = new AstraLabel("");
         private final AstraProgressBar bar = new AstraProgressBar();
+        public void setBarSize(int w, int h) {
+            bar.setSize(w, h);
+        }
         public AstraProgressPanel(){
             setOpaque(false);
             setLayout(null);
             titleLabel.setFont(AstraStyles.mediumBold(13f));
-            captionLabel.setFont(AstraStyles.medium(12f));
+            captionLabel.setFont(AstraStyles.medium(16f));
             add(titleLabel); add(bar); add(captionLabel);
         }
         @Override public void doLayout(){
             int w = getWidth();
             titleLabel.setBounds(0,0,w,20);
-            bar.setBounds(0,28,w,22);
+            bar.setBounds(0,28,w,10);
             captionLabel.setBounds(0,56,w,20);
         }
         public void setTitle(String t){ titleLabel.setText(t); }
@@ -627,6 +760,71 @@ public class AstraUIKit {
         }
 
         public void applyAstraMenuBar(JMenuBar mb){ setJMenuBar(mb); }
+    }
+    public static class AstraRoundButton extends JButton {
+
+        private String text;
+        private boolean hover = false;
+
+        public AstraRoundButton(String text) {
+            this.text = text;
+
+            setPreferredSize(new Dimension(42, 42));
+            setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+
+            addMouseListener(new MouseAdapter() {
+                @Override public void mouseEntered(MouseEvent e) {
+                    hover = true;
+                    repaint();
+                }
+                @Override public void mouseExited(MouseEvent e) {
+                    hover = false;
+                    repaint();
+                }
+            });
+        }
+
+        @Override
+        public Dimension getPreferredSize() {
+            int s = Math.max(super.getPreferredSize().width, super.getPreferredSize().height);
+            return new Dimension(s, s);   // force square → rounding to circle
+        }
+
+        @Override
+        protected void paintComponent(Graphics g) {
+            Graphics2D g2 = (Graphics2D) g.create();
+            try {
+                g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+
+                int size = Math.min(getWidth(), getHeight());
+                int x = (getWidth() - size) / 2;
+                int y = (getHeight() - size) / 2;
+
+                Shape circle = new Ellipse2D.Float(x, y, size - 1, size - 1);
+                g2.setPaint(new GradientPaint(0,0, new Color(40,40,40), 0,size, new Color(25,25,25)));
+                g2.fill(circle);
+
+                // ───────── Hover Shine ─────────
+                if (hover) {
+                    g2.setPaint(new Color(255,255,255,35));
+                    g2.fill(circle);
+                }
+                g2.setStroke(new BasicStroke(2.2f));
+                g2.setPaint(AstraTheme.border());
+                g2.draw(circle);
+                if (text != null && !text.isEmpty()) {
+                    g2.setFont(AstraStyles.mediumBold(13f));
+                    FontMetrics fm = g2.getFontMetrics();
+                    int tx = (getWidth() - fm.stringWidth(text)) / 2;
+                    int ty = (getHeight() + fm.getAscent())/2 - fm.getDescent();
+                    g2.setPaint(AstraTheme.softText());
+                    g2.drawString(text, tx, ty);
+                }
+
+            } finally {
+                g2.dispose();
+            }
+        }
     }
 
 }
