@@ -19,7 +19,7 @@ import java.util.ArrayList;
  *
  * NOTE: This file is intended to be a single, self-contained UI kit.
  */
-public class AstraUIKit {
+public class AstraUI {
 
 
     public static class AstraTheme {
@@ -257,6 +257,7 @@ public class AstraUIKit {
     public static class AstraButton extends JButton {
         private String text;
         private boolean hover=false, pressed=false;
+        private boolean borderPainted=true;
         public AstraButton(String text) {
             this.text = text;
             setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -268,10 +269,11 @@ public class AstraUIKit {
                 public void mouseReleased(MouseEvent e){ pressed=false; repaint(); fireAction(); }
             });
         }
-        public AstraButton(ImageIcon img, String text) {
-            super.setIcon(img);
+        public AstraButton(String text, boolean borderPainted) {
             this.text = text;
+            this.borderPainted = borderPainted;
             setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            setPreferredSize(new Dimension(140,36));
             addMouseListener(new MouseAdapter(){
                 public void mouseEntered(MouseEvent e){ hover=true; repaint(); }
                 public void mouseExited(MouseEvent e){ hover=false; pressed=false; repaint(); }
@@ -279,6 +281,7 @@ public class AstraUIKit {
                 public void mouseReleased(MouseEvent e){ pressed=false; repaint(); fireAction(); }
             });
         }
+
         // Action support
         private ActionListener al;
         public void addActionListener(ActionListener a){ this.al = a; }
@@ -295,33 +298,118 @@ public class AstraUIKit {
             Graphics2D g2 = (Graphics2D) g.create();
             try {
                 g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-                int w = getWidth(), h = getHeight();
-                int arc = Math.min(h,28);
-                RoundRectangle2D bg = new RoundRectangle2D.Float(0,0,w-1,h-1,arc,arc);
-                Color top = AstraTheme.trackTop(), bottom = AstraTheme.trackBottom();
-                if(hover){ top = top.brighter(); bottom = bottom.brighter(); }
-                if(pressed){ top = top.darker(); bottom = bottom.darker(); }
-                g2.setPaint(new GradientPaint(0,0,top,0,h,bottom));
-                g2.fill(bg);
-                g2.setStroke(new BasicStroke(1.8f));
-                g2.setPaint(new GradientPaint(0,0,AstraTheme.gold(),0,h,AstraTheme.goldDark()));
-                g2.draw(bg);
 
+                int w = getWidth(), h = getHeight();
+                int arc = Math.min(h, 28);
+
+                RoundRectangle2D bg = new RoundRectangle2D.Float(0, 0, w-1, h-1, arc, arc);
+
+                Color top = AstraTheme.trackTop(), bottom = AstraTheme.trackBottom();
+                if (hover && borderPainted) { top = top.brighter(); bottom = bottom.brighter(); }
+                if (pressed && borderPainted) { top = top.darker(); bottom = bottom.darker(); }
+
+                if(borderPainted){
+                    g2.setPaint(new GradientPaint(0,0,top,0,h,bottom));
+                    g2.fill(bg);
+                }
+
+                // BORDER ONLY IF ENABLED
+                if (borderPainted) {
+                    g2.setStroke(new BasicStroke(1.8f));
+                    g2.setPaint(new GradientPaint(0,0,AstraTheme.gold(),0,h,AstraTheme.goldDark()));
+                    g2.draw(bg);
+                }
+
+                // Draw text
                 Font f = AstraStyles.mediumBold(13f);
                 g2.setFont(f);
                 FontMetrics fm = g2.getFontMetrics();
                 int tw = fm.stringWidth(text);
                 int tx = (w-tw)/2;
                 int ty = (h+fm.getAscent())/2 - fm.getDescent();
-                if(pressed) ty++;
+                if (pressed) ty++;
 
                 g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER,0.45f));
                 g2.setPaint(AstraTheme.goldDark().darker());
                 g2.drawString(text, tx, ty+1);
+
                 g2.setComposite(AlphaComposite.SrcOver);
                 g2.setPaint(AstraTheme.gold());
                 g2.drawString(text, tx, ty);
-            } finally { g2.dispose(); }
+
+            } finally {
+                g2.dispose();
+            }
+        }
+    }
+    public static class ExpandButton extends JButton {
+
+        private boolean expanded = false;
+        private static final Color GOLD = new Color(255, 215, 130);
+
+        public ExpandButton() {
+            setOpaque(false);
+            setContentAreaFilled(false);
+            setBorderPainted(false);
+            setFocusPainted(false);
+
+            setForeground(GOLD);
+            setFont(new Font("Inter", Font.PLAIN, 15));
+            setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+
+            setHorizontalAlignment(LEFT);
+            setText("Advanced");
+
+            // toggle expanded state
+            addActionListener(e -> {
+                expanded = !expanded;
+                repaint();
+            });
+        }
+
+        public void setExpanded(boolean e) {
+            expanded = e;
+            repaint();
+        }
+
+        public boolean isExpanded() {
+            return expanded;
+        }
+
+        @Override
+        protected void paintComponent(Graphics g) {
+            super.paintComponent(g);
+
+            Graphics2D g2 = (Graphics2D) g.create();
+
+            g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+            g2.setStroke(new BasicStroke(1.8f));
+            g2.setColor(GOLD);
+
+            int arrowX = 4;     // padding from left
+            int arrowY = getHeight() / 2;
+
+            int w = 10;         // arrow width
+            int h = 6;          // arrow height
+
+            // Draw arrow exactly like your screenshot
+            if (!expanded) {
+                // UP ARROW (^)
+                g2.drawLine(arrowX, arrowY + 2, arrowX + w/2, arrowY - 2);
+                g2.drawLine(arrowX + w/2, arrowY - 2, arrowX + w, arrowY + 2);
+            } else {
+                // DOWN ARROW (v)
+                g2.drawLine(arrowX, arrowY - 2, arrowX + w/2, arrowY + 2);
+                g2.drawLine(arrowX + w/2, arrowY + 2, arrowX + w, arrowY - 2);
+            }
+
+            g2.dispose();
+        }
+
+        @Override
+        public Insets getInsets() {
+            // extra gap so text doesn’t overlap arrow
+            return new Insets(0, 20, 0, 0);
         }
     }
 

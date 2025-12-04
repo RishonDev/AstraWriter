@@ -4,43 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2871a6a-ecf0-4bfb-9ee8-3c98f0671a54" name="Changes" comment="Basic features added">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/check2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/check3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/gear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/image-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/moon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/ub.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/usb.png" afterDir="false" />
+    <list default="true" id="b2871a6a-ecf0-4bfb-9ee8-3c98f0671a54" name="Changes" comment="Save 1">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/AstraUIKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/AstraUIKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/AstraUIKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/AstraUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/astrawriter/AstraWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/astrawriter/AstraWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/1000_F_476887551_To06orGUP2FCthNrqHnfNsuNXkXNjfTT-transformed.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/BigSur.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Catalina.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/HighSierra.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-aquamorphic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-aquamorphic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-round.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-square.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-square.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-vibrant.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-vibrant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Mojave.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_1024x1024x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_16x16x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_256x256x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_32x32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Monterey_Icon/Monterey_512x512x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_1024x1024x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_16x16x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_256x256x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_32x32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/Ventura_Icons/Ventura_512x512x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/astrawriter/images/win.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/1000_F_476887551_To06orGUP2FCthNrqHnfNsuNXkXNjfTT-transformed.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/BigSur.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Catalina.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/HighSierra.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-aquamorphic.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-aquamorphic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-round.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-square.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-vibrant.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Linux_Icons/ubuntu/kubuntu/kubuntu-vibrant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Mojave.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Monterey.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Monterey_Icon/Monterey_1024x1024x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Monterey_Icon/Monterey_16x16x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Monterey_Icon/Monterey_256x256x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Monterey_Icon/Monterey_32x32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Monterey_Icon/Monterey_512x512x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Ventura.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Ventura_Icons/Ventura_1024x1024x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Ventura_Icons/Ventura_16x16x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Ventura_Icons/Ventura_256x256x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Ventura_Icons/Ventura_32x32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/Ventura_Icons/Ventura_512x512x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/astrawriter/images/win.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +184,7 @@
       <workItem from="1764725349709" duration="18635000" />
       <workItem from="1764786267232" duration="7979000" />
       <workItem from="1764802042479" duration="4264000" />
-      <workItem from="1764819498854" duration="16581000" />
+      <workItem from="1764819498854" duration="27172000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -218,7 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764624274378</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Save 1">
+      <option name="closed" value="true" />
+      <created>1764865803067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764865803067</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Save 1">
+      <option name="closed" value="true" />
+      <created>1764865811853</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764865811853</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +236,8 @@
     <MESSAGE value="." />
     <MESSAGE value="Cleaned up files" />
     <MESSAGE value="Basic features added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic features added" />
+    <MESSAGE value="Save 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Save 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
